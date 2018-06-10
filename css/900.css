@@ -1,0 +1,132 @@
+/* media query min-width 900px */
+img {
+  max-height: : 100%;
+  max-height: auto;
+  margin: 5px;
+
+}
+
+
+/* flexbox styling */
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1000px;
+  display: -webkit-flex;
+  margin: 20px;
+}
+
+.pageHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ddd;
+}
+
+.pageTitle {
+  display: flex;
+  flex-basis: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pic0{
+  max-height: 100px;
+}
+
+.pic1{
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.pic2{
+  width: 400px;
+  max-height: 400px;
+}
+
+.pic3{
+  flex-wrap: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.projectPics{
+	background-color: #ddc;
+	max-width: 100%;
+	display: flex;
+	min-width: 33.3%;
+  -flex-flow: row wrap;
+	justify-content: center;
+	box-shadow: 2px;
+}
+
+.myLinks {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px;
+}
+/* Text styling */
+
+
+h1 {
+  font-size: 40px;
+  color: #999;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 25px;
+  color: #999;
+  margin: 5px;
+}
+
+h3 {
+  font: 25px black;
+  text-align: center;
+}
+
+/* Link styling */
+a {
+  text-align: center;
+  color: #5f6060;
+  text-decoration: none;
+}
+
+a:hover {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  transition: .5s;
+}
+
+a.links {
+  font: 10em #5f6060;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3,
+a,
+a:hover {
+  font-family: "Lobster", sans-serif;
+}
+
+
+/* Hover effect for images*/
+
+.pics:hover {
+  background-color: #467a5e;
+  border-radius: 0;
+  opacity: 0.7;
+  transition: .05s;
+}
